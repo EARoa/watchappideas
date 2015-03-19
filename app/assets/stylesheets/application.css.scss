@@ -5,13 +5,18 @@
 
 h1,
 h2,
-h3,
+h5,
 p,
 a {
   color: #333;
   font-style: normal;
   font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
 
+}
+
+p{
+  width:20em;
+  text-align:left;
 }
 
 
@@ -24,3 +29,11 @@ a {
   padding: 30px 30px 30px 30px;
 
 }
+
+
+
+// padding:10px 5px 15px 20px;
+// top padding is 10px
+// right padding is 5px
+// bottom padding is 15px
+// left padding is 20px
