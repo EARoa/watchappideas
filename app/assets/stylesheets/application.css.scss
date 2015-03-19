@@ -38,8 +38,11 @@ p{
   width: 2.750em;
 }
 
-// padding:10px 5px 15px 20px;
-// top padding is 10px
-// right padding is 5px
-// bottom padding is 15px
-// left padding is 20px
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+border: none;
+}
